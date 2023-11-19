@@ -1,0 +1,153 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Главная: Станция для борьбы с информационной зависимостью
+{% endblock %}
+
+{% block body %}
+
+<div class="container">
+
+<h1>Станция для борьбы с информационной зависимостью</h1><br><br>
+
+  <div class="row pb-4 pt-3">
+
+    <div class="col-sm-4">
+      <div class="card mb-4 shadow-sm">
+
+                <div class="card-header">
+                <h4 class="my-0 font-weight-normal">Слот 1</h4>
+                </div>
+
+                <div class="card-body">
+                          <ul class="list-unstyled mt-3 mb-4">
+                                    <li>Имя: {{ data[0]['name'] }}</li>
+                                    <li>Модель устройства: {{ data[0]['model'] }}</li>
+                                    <li>Процент заряда: {{ data[0]['charge'] }}</li>
+                                    <li>Время подключения: {{ data[0]['connection_time'] }}</li>
+                                    <li>Время отключения: {{ data[0]['disconnection_time'] }}</li>
+                          </ul>
+
+                <!-- <button type="button" class="btn btn-lg btn-light">Обновить</button> -->
+
+                </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card mb-4 shadow-sm">
+
+                <div class="card-header">
+                <h4 class="my-0 font-weight-normal">Слот 2</h4>
+                </div>
+
+                <div class="card-body">
+                          <ul class="list-unstyled mt-3 mb-4">
+                                    <li>Имя: {{ data[1]['name'] }}</li>
+                                    <li>Модель устройства: {{ data[1]['model'] }}</li>
+                                    <li>Процент заряда: {{ data[1]['charge'] }}</li>
+                                    <li>Время подключения: {{ data[1]['connection_time'] }}</li>
+                                    <li>Время отключения: {{ data[1]['disconnection_time'] }}</li>
+                          </ul>
+
+<!--                <button type="button" class="btn btn-lg btn-light">Обновить</button>-->
+
+                </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card mb-4 shadow-sm">
+
+                <div class="card-header">
+                <h4 class="my-0 font-weight-normal">Слот 3</h4>
+                </div>
+
+                <div class="card-body">
+                          <ul class="list-unstyled mt-3 mb-4">
+                                    <li>Имя: {{ data[2]['name'] }}</li>
+                                    <li>Модель устройства: {{ data[2]['model'] }}</li>
+                                    <li>Процент заряда: {{ data[2]['charge'] }}</li>
+                                    <li>Время подключения: {{ data[2]['connection_time'] }}</li>
+                                    <li>Время отключения: {{ data[2]['disconnection_time'] }}</li>
+                          </ul>
+
+<!--                <button type="button" class="btn btn-lg btn-light">Обновить</button>-->
+
+                </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="row pb-4 pt-3">
+
+    <div class="col-sm-4">
+      <div class="card mb-4 shadow-sm">
+
+                <div class="card-header">
+                <h4 class="my-0 font-weight-normal">Слот 4</h4>
+                </div>
+
+                <div class="card-body">
+                          <ul class="list-unstyled mt-3 mb-4">
+                                    <li>Имя: {{ data[3]['name'] }}</li>
+                                    <li>Модель устройства: {{ data[3]['model'] }}</li>
+                                    <li>Процент заряда: {{ data[3]['charge'] }}</li>
+                                    <li>Время подключения: {{ data[3]['connection_time'] }}</li>
+                                    <li>Время отключения: {{ data[3]['disconnection_time'] }}</li>
+                          </ul>
+
+<!--                <button type="button" class="btn btn-lg btn-light">Обновить</button>-->
+
+                </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card mb-4 shadow-sm">
+
+                <div class="card-header">
+                <h4 class="my-0 font-weight-normal">Слот 5</h4>
+                </div>
+
+                <div class="card-body">
+                          <ul class="list-unstyled mt-3 mb-4">
+                                    <li>Имя: {{ data[4]['name'] }}</li>
+                                    <li>Модель устройства: {{ data[4]['model'] }}</li>
+                                    <li>Процент заряда: {{ data[4]['charge'] }}</li>
+                                    <li>Время подключения: {{ data[4]['connection_time'] }}</li>
+                                    <li>Время отключения: {{ data[4]['disconnection_time'] }}</li>
+                          </ul>
+
+<!--                <button type="button" class="btn btn-lg btn-light">Обновить</button>-->
+
+                </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card mb-4 shadow-sm">
+
+                <div class="card-header">
+                <h4 class="my-0 font-weight-normal">Слот 6</h4>
+                </div>
+
+                <div class="card-body">
+                          <ul class="list-unstyled mt-3 mb-4">
+                                    <li>Имя: {{ data[5]['name'] }}</li>
+                                    <li>Модель устройства: {{ data[5]['model'] }}</li>
+                                    <li>Процент заряда: {{ data[5]['charge'] }}</li>
+                                    <li>Время подключения: {{ data[5]['connection_time'] }}</li>
+                                    <li>Время отключения: {{ data[5]['disconnection_time'] }}</li>
+                          </ul>
+
+<!--                <button type="button" class="btn btn-lg btn-light">Обновить</button>-->
+
+                </div>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+
+</div>
+{% endblock %}
